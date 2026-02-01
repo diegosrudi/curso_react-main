@@ -2,6 +2,10 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
+import List from './components/List';
+
+
 
 
 
@@ -13,6 +17,7 @@ function App() {
       {/* <h1>Agora é React!</h1> */}
       <p>Bora pra cima Diego!</p>
       <HelloWorld />
+      <Frase />
       <SayMyName name="Diego" />
       <SayMyName name="Anne" />
       <SayMyName name= {nome} />
@@ -24,7 +29,7 @@ function App() {
       profissao="Desenvolvedor"
       foto="https://avatars.githubusercontent.com/u/161220165?v=4"
       />
-
+      <List />
     </div>
   );
 }
