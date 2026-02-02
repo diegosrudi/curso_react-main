@@ -1,9 +1,8 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
-import SayMyName from './components/SayMyName';
-import Pessoa from './components/Pessoa';
-import Frase from './components/Frase';
-import List from './components/List';
+import Evento from './components/Evento';
+import Form from './components/Form';
+
+
 
 
 
@@ -16,20 +15,9 @@ function App() {
     <div className="App">
       {/* <h1>Agora é React!</h1> */}
       <p>Bora pra cima Diego!</p>
-      <HelloWorld />
-      <Frase />
-      <SayMyName name="Diego" />
-      <SayMyName name="Anne" />
-      <SayMyName name= {nome} />
-      <SayMyName name="João" />
-      {/* replicação de código */}
-      <Pessoa
-      nome="Diego"
-      idade="38"
-      profissao="Desenvolvedor"
-      foto="https://avatars.githubusercontent.com/u/161220165?v=4"
-      />
-      <List />
+      <Evento numero={1}/>
+      <Evento numero={2}/>
+      <Form />
     </div>
   );
 }
