@@ -1,6 +1,6 @@
 import './App.css';
 import Evento from './components/Evento';
-import Form from './components/Form';
+// import Form from './components/Form';
 
 
 
@@ -9,15 +9,14 @@ import Form from './components/Form';
 
 
 function App() {
-  const nome = "Maria"
+  // const nome = "Maria"
 
   return (
     <div className="App">
       {/* <h1>Agora é React!</h1> */}
       <p>Bora pra cima Diego!</p>
-      <Evento numero={1}/>
-      <Evento numero={2}/>
-      <Form />
+      <Evento />
+      {/* <Form /> */}
     </div>
   );
 }
